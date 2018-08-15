@@ -28,6 +28,9 @@ The hosted website and apps for mobile devices will offer the following features
 * reseller ratings by the community
 * offline-shopping assistant
 
+## Architecture
+The Database will be some NoSQL. CouchDB or MongoDB.
+
 ## Development
 The first step will be to create the database structure and the public API. Some specific shop plugins will follow, then the website itself will be created. The crawler follows, then standalone PriceAgent apps.
 
