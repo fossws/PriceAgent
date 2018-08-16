@@ -29,9 +29,9 @@ The hosted website and apps for mobile devices will offer the following features
 * offline-shopping assistant
 
 ## Architecture
-The Database will be some NoSQL. CouchDB or MongoDB.
+The server will use node.js and CouchDB. There will be a web app using PouchDB for offline support and enable free/libre standalone data research (without having to contact the PriceAgent server all the time). We will probably use the x-ray library for web scraping.
 
 ## Development
-The first step will be to create the database structure and the public API. Some specific shop plugins will follow, then the website itself will be created. The crawler follows, then standalone PriceAgent apps.
+After creating some specific data gathering tools (specific shop plugins), the first step will be to create the database structure and the public API. Some other specific shop plugins will follow, then the website itself will be created. The crawler follows, then standalone PriceAgent apps.
 
 Contribution is welcome!
